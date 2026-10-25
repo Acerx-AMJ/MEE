@@ -1,6 +1,7 @@
 #ifndef FUNCTIONS_HPP
 #define FUNCTIONS_HPP
 
+#include <algorithm>
 #include <cmath>
 #include <functional>
 #include <random>
