@@ -15,7 +15,12 @@ User Input --> Lexer --> Parser --> Evaluator --> Result
 4. Evaluator evaluates the AST tree and produces the final result
 
 ## Building
-This project only depends on C++17 and can be built like this:
+This project only depends on C++17 and can be built using CMake:
+```bash
+cmake -B build
+cmake --build build
+```
+The executable will be located in `build/mee`. Or build using your favorite compiler:
 ```bash
 g++ -std=c++17 -Iinclude src/main.cpp -o mee
 ```
